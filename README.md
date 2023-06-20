@@ -1,2 +1,2 @@
-# 09_Color-Picker-Extended
-Color Picker Project
+# GradientPicker
+JavaScript DOM Manipulation Example. Generate random background gradients.
