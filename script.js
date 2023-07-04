@@ -9,18 +9,18 @@ var body = document.getElementById("gradient");
 var button = document.querySelector("button");
 
 function myRandom() {
-	// Javascript is garbage and requires this for a range of random.
+	// Range of random.
 	return Math.floor(Math.random() * (255 - 0 + 1) + 0);
 }
 
 function componentToHex(c) {
-	// Javascript is garbage and requires this to turn an integer to hex.
+	// Integer to hex.
 	var hex = c.toString(16);
 	return hex.length == 1 ? "0" + hex : hex;
 }
 
 function randomHex() {
-	// HTML is garbage and requires Hex instead of RGB.
+	// Hex instead of RGB.
 	return ("#" + componentToHex(myRandom()) 
 		+ componentToHex(myRandom()) + componentToHex(myRandom()));
 }
